@@ -29,7 +29,7 @@
 		A95291C716D313F200DD85B5 /* Objc-Ch5-1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Objc-Ch5-1"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A95291CB16D313F200DD85B5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A95291CE16D313F200DD85B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A95291D116D313F200DD85B5 /* Objc-Ch5-1-Prefix.pch */ = {isa = PBXFileReference; path = "Objc-Ch5-1-Prefix.pch"; sourceTree = "<group>"; };
+		A95291D116D313F200DD85B5 /* Objc-Ch5-1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Objc-Ch5-1-Prefix.pch"; sourceTree = "<group>"; };
 		A95291D216D313F200DD85B5 /* Objc_Ch5_1.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Objc_Ch5_1.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 

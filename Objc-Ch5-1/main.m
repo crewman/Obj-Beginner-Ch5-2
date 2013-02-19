@@ -5,6 +5,8 @@
 //  Created by Leif Petersen on 13-02-18.
 //  Copyright (c) 2013 __MyCompanyName__. All rights reserved.
 //
+//  Soon there will be loops and stuff - till then here's some files to make github happy!
+
 
 #import <Foundation/Foundation.h>
 
