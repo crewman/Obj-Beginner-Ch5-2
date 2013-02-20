@@ -50,7 +50,7 @@ int main(int argc, const char *argv[])
         for (n = 1 ; n <= 10; ++n) // note the ++n, replacing the previous n += 1
         {
             factorialNumber *= n ;
-        NSLog(@"%i!                     %i       ",n, factorialNumber);
+        NSLog(@"%2i!                   %i       ",n, factorialNumber); // Learned about %2i, which tells NSLog to use 2 spaces..
         
         }
         
