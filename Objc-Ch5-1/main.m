@@ -47,7 +47,7 @@ int main(int argc, const char *argv[])
         NSLog(@"---------------------------------");
         NSLog(@"n!                   #:          ");
         
-        for (n = 1 ; n <= 10; n += 1) 
+        for (n = 1 ; n <= 10; ++n) // note the ++n, replacing the previous n += 1
         {
             factorialNumber *= n ;
         NSLog(@"%i!                     %i       ",n, factorialNumber);
