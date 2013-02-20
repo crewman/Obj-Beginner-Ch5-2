@@ -10,6 +10,8 @@
 
 #import <Foundation/Foundation.h>
 
+/* Because frankly this is boring, lets move on to factorials!
+
 int main(int argc, const char * argv[])
 {
 
@@ -30,3 +32,28 @@ int main(int argc, const char * argv[])
     return 0;
 }
 
+ 
+ */
+
+
+int main(int argc, const char *argv[])
+{
+    
+    @autoreleasepool {
+        
+        int n, factorialNumber;
+        factorialNumber = 1;
+        NSLog(@"The first 10 factorials (n!) are:");
+        NSLog(@"---------------------------------");
+        NSLog(@"n!                   #:          ");
+        
+        for (n = 1 ; n <= 10; n += 1) 
+        {
+            factorialNumber *= n ;
+        NSLog(@"%i!                     %i       ",n, factorialNumber);
+        
+        }
+        
+    }
+    return 0;
+}
