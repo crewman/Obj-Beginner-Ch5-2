@@ -10,7 +10,10 @@
 
 #import <Foundation/Foundation.h>
 
-/* Because frankly this is boring, lets move on to factorials!
+/* Because frankly this is boring, lets move on to factorials! Besides nobody would use loops for this, Gauss figured this problem out a long, long time ago:
+ 
+ /frac{n(n+1)}{2} ## Latex code - it'd be a massive improvement on computational cycles...
+ 
 
 int main(int argc, const char * argv[])
 {
